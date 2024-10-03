@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { OpenAI } from 'langchain/llms/openai';
+import { OpenAI } from '@langchain/openai';
 
 const { OPENAI_API_KEY } = process.env;
 
