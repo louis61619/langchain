@@ -4,4 +4,6 @@ import { embeddingModel } from '../../utils/utils.mjs';
 // 感覺是將關聯的文本進行一個分類集成
 const output = await embeddingModel.embedQuery('hello');
 
+// embeddingModel.embedQuery
+
 console.log(output);
